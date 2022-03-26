@@ -235,24 +235,25 @@ h2{
 
 }
 
-div.col-sx,div.col-dx{
+div.space-left,div.space-right{
    margin: auto;
    height: 25vw;
+  
 }
-.space-cn{
+.space-centre{
    width: 40%;
    margin: 0 25px;
    height: 25vw;
    padding: 40px;
 }
-.space-cn img{
+.space-centre img{
    width: 35%;
    color: black;
 }
-.space-sx,.space-cn,.space-dx{
+.space-left,.space-centre,.space-right{
    float:left
 }
-.space-cn hr{
+.space-centre hr{
    margin: 20px 0;
    width: 60px;
 }
