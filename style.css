@@ -217,3 +217,76 @@ h2{
 .dropbox-busines .container h2{
    font-size: 50px;
 } 
+.advertising{
+   margin-top: 150px;
+}
+.square img{
+   width: 75%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   filter: grayscale(1);
+}
+.square{
+   position: relative;
+   height: 12.5vw;
+   width: 12.5vw;
+
+}
+
+div.col-sx,div.col-dx{
+   margin: auto;
+   height: 25vw;
+}
+.space-cn{
+   width: 40%;
+   margin: 0 25px;
+   height: 25vw;
+   padding: 40px;
+}
+.space-cn img{
+   width: 35%;
+   color: black;
+}
+.space-sx,.space-cn,.space-dx{
+   float:left
+}
+.space-cn hr{
+   margin: 20px 0;
+   width: 60px;
+}
+.sponsor{
+   background-color:  #f5f5f5;
+}
+.square-designit{
+   border: 10px solid  #d0e9cd ;
+   background-color:#a2d39b ;
+}
+.square-asu{
+   background-color:#61082b ;
+}
+
+.square-florida{
+   background-color: #0093ce;
+}
+
+.square-topps{
+   background-color:  #ff1c1c;
+}
+
+.square-wbr{
+   background-color:  #d5001f ;
+}
+
+.square-herst{
+   background-color:#b4d0e7 ;
+}
+
+.square-lonely-planet{
+   background-color: #0d2481;
+}
+
+.square-channel{
+   background-color: #0d2481;
+}
