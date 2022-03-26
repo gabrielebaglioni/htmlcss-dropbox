@@ -195,7 +195,7 @@ div.imput{
    margin: 0 20px;
 }
 
-.partner .container .clear-fix .text>*{
+ .container .clear-fix .text>*{
    margin-top: 30px;
 }
 .btn-wh{
@@ -288,5 +288,20 @@ div.col-sx,div.col-dx{
 }
 
 .square-channel{
-   background-color: #0d2481;
+   background-color: #ffd830 ;
+}
+.sing-in{
+   background-color:#b4d0e7;
+   padding: 20px;
+}
+.sing-in .container h2{
+   color: #61082b;
+  display: inline-block;
+  margin-right: 500px;
+}
+.last-btn{
+   border: none;
+   padding: 10px 35px;
+   
+   
 }
