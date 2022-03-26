@@ -204,3 +204,16 @@ div.imput{
     border: 1px solid black;
     background-color: #fff;
 }
+.dropbox-busines .container>*{
+   margin: 100; 
+}
+
+h2{
+   margin: 50px 0;
+}
+.ending-main .container a{
+   color: #0061ff;
+}
+.dropbox-busines .container h2{
+   font-size: 50px;
+} 
