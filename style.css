@@ -26,6 +26,9 @@ img{
    margin: auto;
    max-width: 1300px;
 }
+.debug{
+   display: block;
+}
 
 
 
@@ -126,11 +129,15 @@ div.imput{
 .type-user>*{
    margin-bottom: 30px;
 }
-.cost, .info{
+.type-user .price>span, .type-user .info-plan>span{
+   display: block;
+   margin-bottom: 20px;
+}
+/* .cost, .info{
    display: block;
    margin-bottom: 5px;
    font-weight: bold;
-}
+} */
 .info{
    color: #637381;
 }
@@ -156,4 +163,44 @@ div.imput{
 }
 .plan.mid{
    margin: 0 30px;
+   margin-bottom: 20px;
+}
+.col .type-user{
+   height: 750px;
+}
+
+.container>.type-user{
+   margin-top: 30px;
+}
+.costumer-service{
+   float: left;
+}
+.type-user.under .clear-fix h3{
+   float: left;
+}
+.type-user.under .clear-fix button{
+   float: right;
+}
+
+.type-user.under strong {
+   margin-top: -40;
+} 
+
+/* partener */
+.partener{
+   margin: 100px 0;
+}
+.col2{
+   width: calc(100% / 2 - 40px);
+   margin: 0 20px;
+}
+
+.partner .container .clear-fix .text>*{
+   margin-top: 30px;
+}
+.btn-wh{
+   margin-top: 20px;
+   color: black;
+    border: 1px solid black;
+    background-color: #fff;
 }
