@@ -3,7 +3,44 @@
    padding: 0;
    box-sizing: border-box;
 }
+.clear-fix::after{
+   content: "";
+   display: table;
+   clear: both;
+}
 
 body{
    font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+header{
+   line-height: 60px;
+    padding: 10px 15px;
+}
+.logo img{
+   vertical-align: middle;
+}
+.logo, .nav-top-left.nav-top{
+   float: left;
+}
+.nav-top-rgt.nav-top{
+   float: right;
+}
+.nav-top ul li{
+   display: inline-block;
+   margin-left: 15px;
+}
+.nav-top ul li a{
+   padding: 15px;
+   text-decoration: none;
+   color: inherit;
+   font-size: small;
+}
+/* bottoni */
+.btn{
+   border: none;
+   padding: 10px 20px;
+   background-color:#0061ff ;
+   color: #fff;
 }
