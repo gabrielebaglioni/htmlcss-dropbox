@@ -322,3 +322,35 @@ font-size: 50px;
    right: 20px;
    top: 30px;
 }
+
+
+
+footer{
+   width: 100%;
+   background-color: black;
+   color:white ;
+   
+}
+footer ul{
+   margin-top: 20px;
+   list-style: none;
+}
+
+footer ul li{
+   margin: 10px 0 ;
+   font-size: small;
+}
+.space-f{
+   padding: 80px 0;
+}
+.col-f{
+   width: calc(100% / 5 - 40px);
+   margin: 0 20px;
+}
+footer hr {
+   width: 100px;
+}
+.where{
+   padding: 40px 0;
+   color: lightgray;
+}
