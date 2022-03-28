@@ -173,7 +173,7 @@ div.imput{
    margin-top: 30px;
 }
 .costumer-service{
-   float: left;
+   margin-bottom: 1px solid black;
 }
 .type-user.under .clear-fix h3{
    float: left;
@@ -192,7 +192,7 @@ div.imput{
 }
 .col2{
    width: calc(100% / 2 - 40px);
-   margin: 0 20px;
+   margin: 50px 20px;
 }
 
  .container .clear-fix .text>*{
@@ -241,8 +241,8 @@ div.space-left,div.space-right{
   
 }
 .space-centre{
-   width: 40%;
-   margin: 0 25px;
+   width: calc(100% - 50vw);
+   
    height: 25vw;
    padding: 40px;
 }
@@ -303,6 +303,22 @@ div.space-left,div.space-right{
 .last-btn{
    border: none;
    padding: 10px 35px;
-   
-   
+}
+.ask{
+font-size: 50px;
+}
+.asks{
+   margin: 100px 0;
+}
+.row-ask{
+   padding: 30px;
+   line-height: 20px;
+   border-bottom: 1px solid lightgrey;
+   border-top: 1px solid lightgray;
+   position: relative;
+}
+.row-ask i{
+   position: absolute;
+   right: 20px;
+   top: 30px;
 }
